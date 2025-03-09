@@ -143,7 +143,7 @@ The major goal of this project is to **analyze Walmart's sales data** to identif
 4. **Gross Margin Percentage Calculation**  
    $$ \text{Gross Margin} = \frac{16.0265}{336.5565} \approx 0.0476 \text{ (4.76%)} $$  
 ## 📌 Code  
-For the rest of the code, check the  file.  
+For the rest of the code, check the WalmartsalesSQL file.  
 
 ### 🛠 Database & Table Creation  
 
@@ -174,7 +174,7 @@ CREATE TABLE IF NOT EXISTS sales (
     gross_income DECIMAL(12, 4),
     rating FLOAT(2,1)
 );
-
+```
 ## 🛠 Tools Used  
 
 - **Database**: MySQL  
@@ -186,5 +186,20 @@ CREATE TABLE IF NOT EXISTS sales (
 ## 📌 Conclusion  
 
 This project provided valuable insights into Walmart's sales data, helping us understand key business trends.  
+### 🔹 Key Takeaways:
+1. **Top Performing Branches & Products**  
+   - Identified the highest revenue-generating branches and best-selling product lines.  
+
+2. **Sales Trends & Seasonal Patterns**  
+   - Analyzed monthly and daily sales trends to determine peak sales periods.  
+
+3. **Customer Behavior & Purchase Trends**  
+   - Examined customer types, purchase frequency, and most common payment methods.  
+
+4. **Revenue & Profitability Analysis**  
+   - Assessed gross income, VAT impact, and overall business performance.  
+
+
+
 
 
